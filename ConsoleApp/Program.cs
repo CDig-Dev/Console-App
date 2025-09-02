@@ -33,21 +33,32 @@ class Program
        //Console.WriteLine($"The Area of the Triangle is {CalculateAreaTriangle(baseLength, height)}");
 
 
-       public static double CalculateAreaRectangle(double width, double length)
+    //   public static double CalculateAreaRectangle(double width, double length)
+      // {
+        // return width * length;
+       //}
+
+       //static void Main(string[] args)
+       //{
+        // Console.WriteLine("Enter the length of the rectangle");
+         //double length = Convert.ToDouble(Console.ReadLine());
+
+         //Console.WriteLine("Enter the width of the rectangle");
+         //double width = Convert.ToDouble(Console.ReadLine());
+         //Console.WriteLine($"The area of the rectangle is {CalculateAreaRectangle(length, width)}");
+       //}
+       public static double CalculateAreaSquare(double side)
        {
-         return width * length;
+         return side * side;
        }
 
        static void Main(string[] args)
        {
-         Console.WriteLine("Enter the length of the rectangle");
-         double length = Convert.ToDouble(Console.ReadLine());
-
-         Console.WriteLine("Enter the width of the rectangle");
-         double width = Convert.ToDouble(Console.ReadLine());
-         Console.WriteLine($"The area of the rectangle is {CalculateAreaRectangle(length, width)}");
+         Console.WriteLine("Enter the side length of the square:");
+         double side = Convert.ToDouble(Console.ReadLine());
+         
+         double area = CalculateAreaSquare(side);
+         Console.WriteLine($"The area of the Square is {side * side}");
        }
-
-
 
 }

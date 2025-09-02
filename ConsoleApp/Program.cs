@@ -19,19 +19,35 @@ class Program
         
    // }
 
-   public static double CalculateAreaTriangle(double baseLength, double height)
-   {
-       return 0.5 * baseLength * height;
-   }
+ //  public static double CalculateAreaTriangle(double baseLength, double height)
+   //{
+     //  return 0.5 * baseLength * height;
+   //}
 
-   static void Main(string[] args)
-   {
-       Console.WriteLine("Enter the base length of the triangle:");
-       double baseLength = Convert.ToDouble(Console.ReadLine());
-       Console.WriteLine("Enter the height of the triangle:");
-       double height = Convert.ToDouble(Console.ReadLine());
-       Console.WriteLine($"The Area of the Triangle is {CalculateAreaTriangle(baseLength, height)}");
-   }
+   //static void Main(string[] args)
+   //{
+     //  Console.WriteLine("Enter the base length of the triangle:");
+       //double baseLength = Convert.ToDouble(Console.ReadLine());
+       //Console.WriteLine("Enter the height of the triangle:");
+       //double height = Convert.ToDouble(Console.ReadLine());
+       //Console.WriteLine($"The Area of the Triangle is {CalculateAreaTriangle(baseLength, height)}");
+
+
+       public static double CalculateAreaRectangle(double width, double length)
+       {
+         return width * length;
+       }
+
+       static void Main(string[] args)
+       {
+         Console.WriteLine("Enter the length of the rectangle");
+         double length = Convert.ToDouble(Console.ReadLine());
+
+         Console.WriteLine("Enter the width of the rectangle");
+         double width = Convert.ToDouble(Console.ReadLine());
+         Console.WriteLine($"The area of the rectangle is {CalculateAreaRectangle(length, width)}");
+       }
+
 
 
 }

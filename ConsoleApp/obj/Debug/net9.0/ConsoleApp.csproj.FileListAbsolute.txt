@@ -12,3 +12,4 @@ C:\Users\C\repos\ConsoleApp\ConsoleApp\obj\Debug\net9.0\refint\ConsoleApp.dll
 C:\Users\C\repos\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.pdb
 C:\Users\C\repos\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\C\repos\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll
+C:\Users\C\repos\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.sourcelink.json
